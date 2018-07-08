@@ -3,13 +3,10 @@
 
     <main-nav></main-nav>
 
-    <div class="container-fluid">
-      <div class="row">
+    
+    <router-view></router-view>
+    <footer></footer>
 
-        <router-view></router-view>
-        <footer></footer>
-      </div>
-    </div>
   </div>
 </template>
 

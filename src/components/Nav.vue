@@ -9,9 +9,9 @@
 
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">Status</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#">Map</a>
           </li>
@@ -32,6 +32,11 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li> -->
+        </ul>
+        <ul class="navbar-nav my-2 my-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rocket</a>
+          </li>
         </ul>
         <!-- <form class="form-inline my-2 my-md-0">
           <input class="form-control" type="text" placeholder="Search">
