@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fill">
 
     <main-nav></main-nav>
 
@@ -25,6 +25,13 @@ export default {
 </script>
 
 <style>
+
+.fill { 
+  min-height: 100%;
+  height: 100%;
+}
+
+
 .video
 {
   min-width: 80%;

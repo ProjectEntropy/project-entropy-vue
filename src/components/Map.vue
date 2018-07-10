@@ -126,26 +126,26 @@ export default {
   },
   mounted: function()
   {
-    var tooltip_card = this.$d3.select('#tooltip_card')
-    var tooltip = this.$d3.select('#tooltip')
-    var detail = this.$d3.select('#detail')
-    var route = this.$d3.select("#Route_sections_Voronoi")
-    var active_tile
+    // var tooltip_card = this.$d3.select('#tooltip_card')
+    // var tooltip = this.$d3.select('#tooltip')
+    // var detail = this.$d3.select('#detail')
+    // var route = this.$d3.select("#Route_sections_Voronoi")
+    // var active_tile
     
-    route.selectAll(".current, .future, .cls-5, .cls-6, .cls-7, .cls-8")
-      .on("mouseover", function(d) {
-        tooltip_card.transition()
-           .duration(200)
-           .style("opacity", 1.0);
+    // route.selectAll(".current, .future, .cls-5, .cls-6, .cls-7, .cls-8")
+    //   .on("mouseover", function(d) {
+    //     tooltip_card.transition()
+    //        .duration(200)
+    //        .style("opacity", 1.0);
         
-        tooltip.html(this.getAttribute("tooltip"))
-        detail.html(this.getAttribute("detail"))
-      })
-      .on("mouseout", function(d) {
-        tooltip_card.transition()
-          .duration(500)
-          .style("opacity", 0);
-      })
+    //     tooltip.html(this.getAttribute("tooltip"))
+    //     detail.html(this.getAttribute("detail"))
+    //   })
+    //   .on("mouseout", function(d) {
+    //     tooltip_card.transition()
+    //       .duration(500)
+    //       .style("opacity", 0);
+    //   })
 
 
   },
