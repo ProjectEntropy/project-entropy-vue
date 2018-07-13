@@ -1,20 +1,19 @@
 <template>
 
-  <div class="background-pic-1 fill">
+  <div class="">
 
-  <section class="dashboard-counts section-padding">
+  <section style="position: absolute;" class="dashboard-counts section-padding">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-2 col-md-4 col-6 card">
-          <div class="card-body">
+        <div class="col-xl-2 col-md-4 col-6">
             <h3 class="card-title">A Floating Blockchain Experiment</h3>
             <p class="card-text">
               Entropy is an <i>Ethereum directed</i> solarpowered global <strong>fleet of sailing hackspace boats</strong>
             </p>
-          </div>
+          
         </div>
 
-        <div class="col-xl-2 col-md-4 col-6 faint-card">
+        <div class="col-xl-2 col-md-4 col-6 ">
           <div class="wrapper count-title d-flex">
             <div class="icon"><i class="icon-user"></i></div>
             
@@ -48,7 +47,7 @@
         <div class="col-xl-2 col-md-4 col-6">
           <div class="wrapper count-title d-flex">
             <div class="icon"><i class="icon-check"></i></div>
-            <div class="name"><strong class="text-uppercase">Active Missions</strong><span>Next 6 months</span>
+            <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
               <div class="count-number">3</div>
             </div>
           </div>
@@ -57,7 +56,7 @@
         <div class="col-xl-2 col-md-4 col-6">
           <div class="wrapper count-title d-flex">
             <div class="icon"><i class="icon-padnote"></i></div>
-            <div class="name"><strong class="text-uppercase">Vessels</strong><span>Fleet size</span>
+            <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
               <div class="count-number">3</div>
             </div>
           </div>
@@ -86,8 +85,8 @@
     </div>
   </section>
 
-  <div class="col-sm-12">
-    <!-- <map-component></map-component> -->
+  <div class="no-gutters under">
+    <map-component></map-component>
   </div>
 
   
@@ -115,6 +114,12 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.under
+{
+  z-index: -1;
+  /*margin-top: -20em;*/
+}
+
 .faint-card
 {
   background: rgba(204, 204, 204, 0.5);
@@ -122,8 +127,8 @@ export default {
 
 .background-pic-1
 {
-  background-image: url("../assets/mist.jpg");
-  background-size: cover;
+  /*background-image: url("../assets/mist.jpg");*/
+  /*background-size: cover;*/
 }
 
 .title

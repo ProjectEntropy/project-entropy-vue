@@ -1,14 +1,13 @@
 {
-  "name": "ethertube",
+  "name": "entropy",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Site for Project Entropy",
   "author": "Joran <joran.k@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "test": "npm run unit",
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
