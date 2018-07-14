@@ -9,6 +9,7 @@ dependencies:
   vue: 2.5.16
   vue-chartkick: 0.4.0
   vue-gh-pages: 1.16.3
+  vue-hot-reload-api: 2.3.0
   vue-router: 2.8.1
   vue-spinner: 1.0.3
 devDependencies:
@@ -6951,7 +6952,6 @@ packages:
     resolution:
       integrity: sha512-etUkLqAkb4Gaf1YWSnAI/nI4wzo3/qJIb2EZ24i1dCOme4u8BBmgbmfT6V8GP9YYWjpgRU6h/kSrn2TCfNLH6w==
   /vue-hot-reload-api/2.3.0:
-    dev: true
     resolution:
       integrity: sha512-2j/t+wIbyVMP5NvctQoSUvLkYKoWAAk2QlQiilrM2a6/ulzFgdcLUJfTvs4XQ/3eZhHiBmmEojbjmM4AzZj8JA==
   /vue-icons/2.0.0:
@@ -7322,7 +7322,8 @@ specifiers:
   url-loader: ^0.5.8
   vue: ^2.4.2
   vue-chartkick: ^0.4.0
-  vue-gh-pages: ^1.5.0
+  vue-gh-pages: ^1.16.3
+  vue-hot-reload-api: ^2.3.0
   vue-icons: ^2.0.0
   vue-loader: ^13.0.5
   vue-router: ^2.7.0

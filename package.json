@@ -21,7 +21,8 @@
     "uglifyjs-webpack-plugin": "^1.0.0-beta.2",
     "vue": "^2.4.2",
     "vue-chartkick": "^0.4.0",
-    "vue-gh-pages": "^1.5.0",
+    "vue-gh-pages": "^1.16.3",
+    "vue-hot-reload-api": "^2.3.0",
     "vue-router": "^2.7.0",
     "vue-spinner": "^1.0.2"
   },
