@@ -101,14 +101,14 @@
         </g>
       </svg>
 
-      <div id="tooltip_card" class="card" style="width: 18rem; opacity: 0;">
+<!--       <div id="tooltip_card" class="card" style="width: 18rem; opacity: 0;">
         <div class="card-body">
           <h4 id="tooltip" class="card-title">
           </h4>
 
           <div id="detail"></div>
         </div>
-      </div>
+      </div> -->
     </div>
     </div>
   </div>
