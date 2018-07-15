@@ -1,26 +1,16 @@
 <template>
 
-  <div class="">
+  <div class="container-fluid">
 
     <div class="row">
     
       <div class="col-sm-8">
       
         <section style="" class="dashboard-counts section-padding">
-          <div class="container-fluid">
+          <div class="">
             <div class="row">
-              <!-- <div class="col-xl-2 col-md-4 col-6">
-                  <h3 class="card-title">A Floating Blockchain Experiment</h3>
-                  <p class="card-text">
-                    Entropy is an <i>Ethereum directed</i> solarpowered global <strong>fleet of sailing hackspace boats</strong>
-                  </p>
-                
-              </div>
- -->
               <div class="col-xl-2 col-md-4 col-6">
                 <div class="wrapper count-title d-flex">
-                  <div class="icon"><i class="icon-user"></i></div>
-                  
                   <div class="name"><strong class="text-uppercase">Shared Funds</strong><span>25k / 300k USD</span>
                     
                   </div>
@@ -49,18 +39,18 @@
                 </div>
               </div>
               <!-- Count item widget-->
-              <div class="col-sm-2">
+              <div class="col-sm-2 col-md-4">
                 <div class="wrapper count-title d-flex">
-                  <div class="icon"><i class="icon-check"></i></div>
+                  <div class="icon"><icon name="angle-double-up" scale="2"></icon></div>
                   <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
                     <div class="count-number">3</div>
                   </div>
                 </div>
               </div>
               <!-- Count item widget-->
-              <div class="col-sm-2">
+              <div class="col-sm-2 col-md-4">
                 <div class="wrapper count-title d-flex">
-                  <div class="icon"><i class="icon-padnote"></i></div>
+                  <div class="icon"><icon name="circle" scale="2"></icon></div>
                   <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
                     <div class="count-number">3</div>
                   </div>
@@ -68,19 +58,19 @@
               </div>
               
               <!-- Count item widget-->
-              <div class="col-sm-2">
+              <div class="col-sm-2 col-md-4">
                 <div class="wrapper count-title d-flex">
-                  <div class="icon"><i class="icon-bill"></i></div>
-                  <div class="name"><strong class="text-uppercase">Supporters</strong><span>Volunteers & patrons</span>
+                  <div class="icon"><icon name="bullseye" scale="2"></icon></div>
+                  <div class="name"><strong class="text-uppercase">Tribe</strong><span>Volunteers & patrons</span>
                     <div class="count-number">4</div>
                   </div>
                 </div>
               </div>
               
               <!-- Count item widget-->
-              <div class="col-sm-2">
+              <div class="col-sm-2 col-md-4">
                 <div class="wrapper count-title d-flex">
-                  <div class="icon"><i class="icon-list"></i></div>
+                  <div class="icon"><icon name="align-justify" scale="2"></icon></div>
                   <div class="name"><strong class="text-uppercase">Crew</strong><span>Aboard</span>
                     <div class="count-number">6</div>
                   </div>
@@ -90,9 +80,9 @@
           </div>
         </section>
 
-        <div class="">
+        <section class="">
           <map-component></map-component>
-        </div>
+        </section>
       </div>
       <!-- <Timeline :id="'EntropyBoat'" :sourceType="'profile'" :options="{ tweetLimit: '5' }"/> -->
         
@@ -168,7 +158,6 @@
 import Map from './Map.vue'
 import Timeline from 'vue-tweet-embed/timeline'
 
-
 export default {
 
   name: 'home',
@@ -185,6 +174,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.fa-icon {
+  width: auto;
+  height: 1em; /* or any other relative font sizes */
+
+  /* You would have to include the following two lines to make this work in Safari */
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .card-columns 
 {

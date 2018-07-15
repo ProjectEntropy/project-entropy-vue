@@ -10,9 +10,10 @@ import Chart from 'chart.js'
 
 Vue.use(VueChartkick, {adapter: Chart})
 
-
-// import 'bootstrap/dist/css/bootstrap.css'
-// import 'bootstrap-vue/dist/bootstrap-vue.css'
+// Icons
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
+Vue.component('icon', Icon)
 
 Vue.config.productionTip = false
 

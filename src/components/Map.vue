@@ -1,7 +1,5 @@
 <template>
-  <div class="container-fluid">
-    <div class="row">
-    <div style="width: 100%;">
+    <div class="col-sm-12">
 
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1600 943.4">
         <defs>
@@ -110,8 +108,7 @@
         </div>
       </div> -->
     </div>
-    </div>
-  </div>
+    
 </template>
 
 <script>

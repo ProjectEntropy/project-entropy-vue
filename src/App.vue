@@ -1,5 +1,5 @@
 <template>
-  <div class="fill">
+  <div >
 
     <main-nav></main-nav>
 
