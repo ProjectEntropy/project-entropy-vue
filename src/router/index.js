@@ -3,8 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-import Home from '../components/Home.vue'
-import Map from '../components/Map.vue'
+import Home     from '../components/Home.vue'
+import Map      from '../components/Map.vue'
+import Missions from '../components/Missions.vue'
+import Join     from '../components/Join.vue'
 
 
 export default new Router({
@@ -22,12 +24,12 @@ export default new Router({
     {
       path: '/missions',
       name: 'Missions',
-      component: Map
+      component: Missions
     },
     {
       path: '/join',
       name: 'Join',
-      component: Map
+      component: Join
     }
   ]
 })

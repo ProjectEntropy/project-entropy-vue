@@ -2,107 +2,179 @@
 
   <div class="">
 
-  <section style="position: absolute;" class="dashboard-counts section-padding">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-2 col-md-4 col-6">
-            <h3 class="card-title">A Floating Blockchain Experiment</h3>
-            <p class="card-text">
-              Entropy is an <i>Ethereum directed</i> solarpowered global <strong>fleet of sailing hackspace boats</strong>
-            </p>
-          
-        </div>
-
-        <div class="col-xl-2 col-md-4 col-6 ">
-          <div class="wrapper count-title d-flex">
-            <div class="icon"><i class="icon-user"></i></div>
-            
-            <div class="name"><strong class="text-uppercase">Shared Funds</strong><span>25k / 300k USD</span>
-              
-            </div>
-          </div>
-
-          <div class="chart-container">
-                <pie-chart 
-                  id="pie-chart" 
-                  :data="[['Current', 42], ['Target', 376]]"
-                  :colors="['#b00', '#666']"
-                  :donut="true"
-                  prefix="Ξ"
-                  :legend="false"
-                  :library="{
-                    elements: {
-                      center: {
-                        text: '42eth',
-                        color: '#555', // Default is #000000
-                        fontStyle: 'Arial', // Default is Arial
-                        sidePadding: 20 // Defualt is 20 (as a percentage)
-                      }
-                    }}"
-                >
-                </pie-chart>
+    <div class="row">
+    
+      <div class="col-sm-8">
+      
+        <section style="" class="dashboard-counts section-padding">
+          <div class="container-fluid">
+            <div class="row">
+              <!-- <div class="col-xl-2 col-md-4 col-6">
+                  <h3 class="card-title">A Floating Blockchain Experiment</h3>
+                  <p class="card-text">
+                    Entropy is an <i>Ethereum directed</i> solarpowered global <strong>fleet of sailing hackspace boats</strong>
+                  </p>
+                
+              </div>
+ -->
+              <div class="col-xl-2 col-md-4 col-6">
+                <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-user"></i></div>
+                  
+                  <div class="name"><strong class="text-uppercase">Shared Funds</strong><span>25k / 300k USD</span>
+                    
+                  </div>
                 </div>
-        </div>
-        <!-- Count item widget-->
-        <div class="col-xl-2 col-md-4 col-6">
-          <div class="wrapper count-title d-flex">
-            <div class="icon"><i class="icon-check"></i></div>
-            <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
-              <div class="count-number">3</div>
+
+                <div class="chart-container">
+                  <pie-chart 
+                    id="pie-chart" 
+                    :data="[['Current', 42], ['Target', 376]]"
+                    :colors="['#b00', '#666']"
+                    :donut="true"
+                    prefix="Ξ"
+                    :legend="false"
+                    :library="{
+                      elements: {
+                        center: {
+                          text: '42eth',
+                          color: '#555', // Default is #000000
+                          fontStyle: 'Arial', // Default is Arial
+                          sidePadding: 20 // Defualt is 20 (as a percentage)
+                        }
+                      }}"
+                  >
+                  </pie-chart>
+                      
+                </div>
+              </div>
+              <!-- Count item widget-->
+              <div class="col-sm-2">
+                <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-check"></i></div>
+                  <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
+                    <div class="count-number">3</div>
+                  </div>
+                </div>
+              </div>
+              <!-- Count item widget-->
+              <div class="col-sm-2">
+                <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-padnote"></i></div>
+                  <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
+                    <div class="count-number">3</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Count item widget-->
+              <div class="col-sm-2">
+                <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-bill"></i></div>
+                  <div class="name"><strong class="text-uppercase">Supporters</strong><span>Volunteers & patrons</span>
+                    <div class="count-number">4</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Count item widget-->
+              <div class="col-sm-2">
+                <div class="wrapper count-title d-flex">
+                  <div class="icon"><i class="icon-list"></i></div>
+                  <div class="name"><strong class="text-uppercase">Crew</strong><span>Aboard</span>
+                    <div class="count-number">6</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </section>
+
+        <div class="">
+          <map-component></map-component>
         </div>
-        <!-- Count item widget-->
-        <div class="col-xl-2 col-md-4 col-6">
-          <div class="wrapper count-title d-flex">
-            <div class="icon"><i class="icon-padnote"></i></div>
-            <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
-              <div class="count-number">3</div>
-            </div>
-          </div>
-        </div>
+      </div>
+      <!-- <Timeline :id="'EntropyBoat'" :sourceType="'profile'" :options="{ tweetLimit: '5' }"/> -->
         
-        <!-- Count item widget-->
-        <div class="col-xl-2 col-md-4 col-6">
-          <div class="wrapper count-title d-flex">
-            <div class="icon"><i class="icon-bill"></i></div>
-            <div class="name"><strong class="text-uppercase">Supporters</strong><span>Volunteers & patrons</span>
-              <div class="count-number">4</div>
+      <div class="col-sm-4 section-padding"> 
+        <div class="card-columns">
+          <div class="card bg-dark text-white">
+            <blockquote class=" mb-0 card-body">
+              <p>Entropy is an <i>Ethereum directed</i> solarpowered global <strong>fleet of sailing hackspace boats</strong></p>
+              
+            </blockquote>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="../assets/mist_big.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Occam in heavy mist, Waitemata Harbour, Auckland </h5>
             </div>
           </div>
-        </div>
-        
-        <!-- Count item widget-->
-        <div class="col-xl-2 col-md-4 col-6">
-          <div class="wrapper count-title d-flex">
-            <div class="icon"><i class="icon-list"></i></div>
-            <div class="name"><strong class="text-uppercase">Crew</strong><span>Aboard</span>
-              <div class="count-number">6</div>
+          
+          <div class="card">
+            <img class="card-img-top" src="../assets/mist.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card bg-primary text-white text-center p-3">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/mist.jpg" alt="Card image">
+          </div>
+          <div class="card text-right">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <div class="no-gutters under">
-    <map-component></map-component>
-  </div>
-
-  
   </div>
 </template>
 
 <script>
 
 import Map from './Map.vue'
+import Timeline from 'vue-tweet-embed/timeline'
 
 
 export default {
 
   name: 'home',
   components: {
-    'map-component': Map
+    'map-component': Map,
+    'Timeline': Timeline
   },
   data () {
     return {
@@ -114,6 +186,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.card-columns 
+{
+    column-count: 1;
+}
 .under
 {
   z-index: -1;

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-light bg-light">
       <router-link class="navbar-brand" to="/">
-         <img src="../assets/entropy_logo_black_v01.png" class="img-fluid" style="max-width: 150px;" alt="project entropy"> </img>
+         <img src="../assets/entropy_logo_black_v01.png" class="img-fluid" alt="project entropy"> </img>
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

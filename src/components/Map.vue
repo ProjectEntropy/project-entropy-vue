@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="container-fluid">
     <div class="row">
     <div style="width: 100%;">
 

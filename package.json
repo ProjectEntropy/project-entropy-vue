@@ -24,7 +24,8 @@
     "vue-gh-pages": "^1.16.3",
     "vue-hot-reload-api": "^2.3.0",
     "vue-router": "^2.7.0",
-    "vue-spinner": "^1.0.2"
+    "vue-spinner": "^1.0.2",
+    "vue-tweet-embed": "^2.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
