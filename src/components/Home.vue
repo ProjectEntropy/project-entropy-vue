@@ -11,8 +11,7 @@
             <div class="row">
               <div class="col-xl-2 col-md-4 col-6">
                 <div class="wrapper count-title d-flex">
-                  <div class="name"><strong class="text-uppercase">Shared Funds</strong><span>25k / 300k USD</span>
-                    
+                  <div class="name"><strong class="text-uppercase">Resources</strong><span>25k / 300k USD</span>
                   </div>
                 </div>
 
@@ -24,13 +23,14 @@
                     :donut="true"
                     prefix="Ξ"
                     :legend="false"
+                    :height="200"
                     :library="{
                       elements: {
                         center: {
                           text: '42eth',
-                          color: '#555', // Default is #000000
-                          fontStyle: 'Arial', // Default is Arial
-                          sidePadding: 20 // Defualt is 20 (as a percentage)
+                          color: '#555', 
+                          fontStyle: 'Arial',
+                          sidePadding: 20
                         }
                       }}"
                   >
@@ -39,7 +39,7 @@
                 </div>
               </div>
               <!-- Count item widget-->
-              <div class="col-sm-2 col-md-4">
+              <div class="col-sm-3 col-md-3">
                 <div class="wrapper count-title d-flex">
                   <div class="icon"><icon name="angle-double-up" scale="2"></icon></div>
                   <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
@@ -48,7 +48,7 @@
                 </div>
               </div>
               <!-- Count item widget-->
-              <div class="col-sm-2 col-md-4">
+              <div class="col-sm-2 col-md-3">
                 <div class="wrapper count-title d-flex">
                   <div class="icon"><icon name="circle" scale="2"></icon></div>
                   <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
@@ -67,15 +67,7 @@
                 </div>
               </div>
               
-              <!-- Count item widget-->
-              <div class="col-sm-2 col-md-4">
-                <div class="wrapper count-title d-flex">
-                  <div class="icon"><icon name="align-justify" scale="2"></icon></div>
-                  <div class="name"><strong class="text-uppercase">Crew</strong><span>Aboard</span>
-                    <div class="count-number">6</div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -95,31 +87,16 @@
             </blockquote>
           </div>
 
+          
           <div class="card">
             <img class="card-img-top" src="../assets/mist_big.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Occam in heavy mist, Waitemata Harbour, Auckland </h5>
+              <h5 class="card-title">Occam in Heavy Mist</h5>
+              <p class="card-text">Waitemata Harbour, Auckland</p>
+              <p class="card-text"><small class="text-muted">9th June 2018</small></p>
             </div>
           </div>
           
-          <div class="card">
-            <img class="card-img-top" src="../assets/mist.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-          <div class="card bg-primary text-white text-center p-3">
-            <blockquote class="blockquote mb-0">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-              <footer class="blockquote-footer">
-                <small>
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </div>
           <div class="card text-center">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -923,7 +900,7 @@ nav.navbar a.menu-btn:hover {
 .dashboard-header .pie-chart {
   position: relative;
   width: 300px;
-  height: 300px;
+  height: 200px;
   max-width: 100%;
   margin: 0 auto;
 }
