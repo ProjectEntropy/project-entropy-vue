@@ -89,7 +89,7 @@
 
           
           <div class="card">
-            <img class="card-img-top" src="../assets/mist_big.jpg" alt="Card image cap">
+            <img class="card-img-top" src="../assets/mist_big.jpg" alt="Mist">
             <div class="card-body">
               <h5 class="card-title">Occam in Heavy Mist</h5>
               <p class="card-text">Waitemata Harbour, Auckland</p>
@@ -97,6 +97,16 @@
             </div>
           </div>
           
+          <div class="card">
+            <img class="card-img-top" src="../assets/Mauihook.png" alt="Mauihook">
+            <div class="card-body">
+              <h5 class="card-title">PureWaves Plastic Recycling</h5>
+              <p class="card-text">Maui's Hook</p>
+              <p class="card-text"><small class="text-muted">16th May 2018</small></p>
+            </div>
+          </div>
+          <!-- 
+
           <div class="card text-center">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -123,7 +133,7 @@
               <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
