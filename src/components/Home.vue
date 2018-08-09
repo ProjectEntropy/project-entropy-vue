@@ -89,7 +89,7 @@
 
           
           <div class="card">
-            <img class="card-img-top" src="../assets/mist.jpg" alt="Mist">
+            <img class="card-img-top" src="./../assets/mist.jpg" alt="Mist">
             <div class="card-body">
               <h5 class="card-title">Occam in Heavy Mist</h5>
               <p class="card-text">Waitemata Harbour, Auckland</p>
@@ -98,7 +98,7 @@
           </div>
           
           <div class="card">
-            <img class="card-img-top" src="../assets/mauihook.png" alt="Mauihook">
+            <img class="card-img-top" src="./../assets/mauihook.png" alt="Mauihook">
             <div class="card-body">
               <h5 class="card-title">PureWaves Plastic Recycling</h5>
               <p class="card-text">Maui's Hook</p>
