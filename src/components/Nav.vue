@@ -10,15 +10,23 @@
       <div class="collapse navbar-collapse" id="navbarsExample04">
         <ul class="navbar-nav mr-auto">
           
-          <li class="nav-item">
+
+          <!-- <li class="nav-item">
             <router-link class="nav-link" to="map">Map</router-link>
           </li>
-          <li class="nav-item">
+           -->
+           <li class="nav-item">
             <router-link class="nav-link" to="missions">Missions</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="join">Join</router-link>
           </li>
+
+          <li class="nav-item">
+            <router-link class="nav-link" to="join">0x24E7dA268a400D677Ed32D332Eb8772C5405De70</router-link>
+          </li>
+
+          
           <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
           </li> -->
@@ -49,7 +57,7 @@
 
 export default {
 
-  name: 'nav',
+  name: 'navigation',
 
   data () {
     return {

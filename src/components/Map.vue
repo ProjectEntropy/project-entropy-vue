@@ -115,7 +115,7 @@
 
 export default {
 
-  name: 'map',
+  name: 'fleetmap',
   components: {
   },
   methods: {
