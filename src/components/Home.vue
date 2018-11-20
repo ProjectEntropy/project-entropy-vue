@@ -42,7 +42,7 @@
               <div class="col-sm-3 col-md-3">
                 <div class="wrapper count-title d-flex">
                   <div class="icon"><icon name="angle-double-up" scale="2"></icon></div>
-                  <div class="name"><strong class="text-uppercase">Missions</strong><span>Next 6 months</span>
+                  <div class="name"><strong class="text-uppercase"><router-link to="missions">Missions</router-link></strong><span>Next 6 months</span>
                     <div class="count-number">3</div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@
               <div class="col-sm-2 col-md-3">
                 <div class="wrapper count-title d-flex">
                   <div class="icon"><icon name="circle" scale="2"></icon></div>
-                  <div class="name"><strong class="text-uppercase">Boats</strong><span>Fleet size</span>
+                  <div class="name"><strong class="text-uppercase"><router-link to="boats">Boats</router-link></strong><span>Fleet size</span>
                     <div class="count-number">3</div>
                   </div>
                 </div>
@@ -61,12 +61,11 @@
               <div class="col-sm-2 col-md-4">
                 <div class="wrapper count-title d-flex">
                   <div class="icon"><icon name="bullseye" scale="2"></icon></div>
-                  <div class="name"><strong class="text-uppercase">Tribe</strong><span>Volunteers & patrons</span>
+                  <div class="name"><strong class="text-uppercase"><router-link to="tribe">Tribe</router-link></strong><span>Volunteers & patrons</span>
                     <div class="count-number">4</div>
                   </div>
                 </div>
               </div>
-              
               
             </div>
           </div>
@@ -76,7 +75,6 @@
           <map-component></map-component>
         </section>
       </div>
-      <!-- <Timeline :id="'EntropyBoat'" :sourceType="'profile'" :options="{ tweetLimit: '5' }"/> -->
         
       <div class="col-sm-4 section-padding"> 
         <div class="card-columns">
